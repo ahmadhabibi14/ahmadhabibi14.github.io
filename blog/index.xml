@@ -22,7 +22,8 @@
       <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://ahmadhabibi14.github.io/blog/solved-manjaro-os-incorrect-password-problem/</guid>
-      <description>When I was access root mode or just types $ sudo pacman &amp;hellip;, the system is always showing incorrect password even though I wrote the password correctly. I don&amp;rsquo;t know what causes it is, but probably caused by a bug. Then I figure out and found the solution with typing $ faillock &amp;ndash;user habibi &amp;ndash;reset (habibi is my username, you should use your username). But after few days I got the same trouble again, but this time can&amp;rsquo;t solved with the same way.</description>
+      <description>When I was access root mode or just types $ sudo pacman &amp;hellip;, the system is always showing incorrect password even though I wrote the password correctly. I don&amp;rsquo;t know what causes it is, but probably caused by a bug. Then I figure out and found the solution with typing
+faillock --user habibi --reset (habibi is my username, you should use your username). But after few days I got the same trouble again, but this time can&amp;rsquo;t solved with the same way.</description>
     </item>
     
     <item>

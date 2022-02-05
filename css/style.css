@@ -1,3 +1,10 @@
+code {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
 #contact-me {
   font-family: courier;
 }

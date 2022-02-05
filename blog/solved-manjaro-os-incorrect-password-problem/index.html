@@ -13,6 +13,7 @@
 
 
 <link href="/css/style.css" rel="stylesheet">
+<link href="/css/syntax.css" rel="stylesheet">
 
 
 <link href="/css/font-awesome.css" rel="stylesheet">
@@ -78,7 +79,9 @@
 <p class="text-center">
   <img src="https://ahmadhabibi14.github.io/images/[SOLVED]:-manjaro-os-incorrect-password-problem/01.jpg" class="blog-images" alt="image-01" width="85%">
 </p>
-<p>When I was access root mode or just types $ sudo pacman &hellip;, the system is always showing incorrect password even though I wrote the password correctly. I don&rsquo;t know what causes it is, but probably caused by a bug. Then I figure out and found the solution with typing $ faillock &ndash;user habibi &ndash;reset (habibi is my username, you should use your username). But after few days I got the same trouble again, but this time can&rsquo;t solved with the same way. After that I&rsquo;m googling and googling to find out the solution.</p>
+<p>When I was access root mode or just types $ sudo pacman &hellip;, the system is always showing incorrect password even though I wrote the password correctly. I don&rsquo;t know what causes it is, but probably caused by a bug. Then I figure out and found the solution with typing</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> faillock --user habibi --reset
+</code></pre></div><p>(habibi is my username, you should use your username). But after few days I got the same trouble again, but this time can&rsquo;t solved with the same way. After that I&rsquo;m googling and googling to find out the solution.</p>
 
 
 
