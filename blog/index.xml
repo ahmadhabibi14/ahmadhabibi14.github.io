@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on HBBIIIII - Ahmad Rizky Nusantara Habibi</title>
+    <link>https://ahmadhabibi14.github.io/blog/</link>
+    <description>Recent content in Blogs on HBBIIIII - Ahmad Rizky Nusantara Habibi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Feb 2022 18:00:21 +0800</lastBuildDate><atom:link href="https://ahmadhabibi14.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>https://ahmadhabibi14.github.io/blog/lorem-ipsum/</link>
+      <pubDate>Thu, 03 Feb 2022 18:00:21 +0800</pubDate>
+      
+      <guid>https://ahmadhabibi14.github.io/blog/lorem-ipsum/</guid>
+      <description>Heading 1 &amp;ldquo;Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>[SOLVED]: Manjaro Os Incorrect Password Problem</title>
+      <link>https://ahmadhabibi14.github.io/blog/solved-manjaro-os-incorrect-password-problem/</link>
+      <pubDate>Sat, 08 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ahmadhabibi14.github.io/blog/solved-manjaro-os-incorrect-password-problem/</guid>
+      <description>When I was access root mode or just types $ sudo pacman &amp;hellip;, the system is always showing incorrect password even though I wrote the password correctly. I don&amp;rsquo;t know what causes it is, but probably caused by a bug. Then I figure out and found the solution with typing $ faillock &amp;ndash;user habibi &amp;ndash;reset (habibi is my username, you should use your username). But after few days I got the same trouble again, but this time can&amp;rsquo;t solved with the same way.</description>
+    </item>
+    
+    <item>
+      <title>Why I Started Blogging</title>
+      <link>https://ahmadhabibi14.github.io/blog/why-i-started-blogging/</link>
+      <pubDate>Fri, 26 Nov 2021 19:33:37 +0800</pubDate>
+      
+      <guid>https://ahmadhabibi14.github.io/blog/why-i-started-blogging/</guid>
+      <description>I waste a lot of time for playing games and surfing on social media, So I figure out what a good hobby for me so that I ain&amp;rsquo;t wasting time anymore. I don&amp;rsquo;t think that I will be a good writer, but at least I do what I&amp;rsquo;m passionate about, and I wish my writing will be have much benefit to every reader. 😂</description>
+    </item>
+    
+  </channel>
+</rss>
