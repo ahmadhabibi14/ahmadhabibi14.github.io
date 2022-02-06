@@ -1,12 +1,6 @@
-code {
-  padding-left: 6px;
-  padding-right: 6px;
-  padding-bottom: 6px;
-  padding-top: 6px;
-}
-
-#contact-me {
-  font-family: courier;
+.highlight pre {
+  padding: 5px 20px 5px 20px;
+  border-radius: 3px;
 }
 
 /*Emoji CSS*/

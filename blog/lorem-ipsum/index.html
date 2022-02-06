@@ -59,7 +59,7 @@
       <div class="container-sm">
         <div class="row justify-content-center">
           <div class="col-md-9">
-            <h1 class="fw-bold text-center judul fs-3"> Lorem Ipsum </h1>
+            <h1 class="fw-bold text-center judul fs-1"> Lorem Ipsum </h1>
             <hr>
             <div class="post-meta mb-2 pb-3 mt-4 text-muted text-xs">
               <i class="fa fa-user pl-4 pr-4"></i>&nbsp;&nbsp;Ahmad Habibi&nbsp;&nbsp;
@@ -88,6 +88,19 @@
 <p>This continues at length and variously. The text is not really Greek, but badly garbled Latin. It started life as extracted phrases from sections 1.10.32 and 1.10.33 of Cicero&rsquo;s &ldquo;De Finibus Bonorum et Malorum&rdquo; (&ldquo;The Extremes of Good and Evil&rdquo;), which read:</p>
 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 <p>At ver</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#6272a4">// ... code
+</span><span style="color:#6272a4">// If an unknown or empty style is provided, AP style is what you get.
+</span><span style="color:#6272a4"></span><span style="color:#8be9fd;font-style:italic">func</span> <span style="color:#50fa7b">GetTitleFunc</span>(style <span style="color:#8be9fd">string</span>) <span style="color:#8be9fd;font-style:italic">func</span>(s <span style="color:#8be9fd">string</span>) <span style="color:#8be9fd">string</span> {
+  <span style="color:#ff79c6">switch</span> strings.<span style="color:#50fa7b">ToLower</span>(style) {
+  <span style="color:#ff79c6">case</span> <span style="color:#f1fa8c">&#34;go&#34;</span>:
+    <span style="color:#ff79c6">return</span> strings.Title
+  <span style="color:#ff79c6">case</span> <span style="color:#f1fa8c">&#34;chicago&#34;</span>:
+    <span style="color:#ff79c6">return</span> transform.<span style="color:#50fa7b">NewTitleConverter</span>(transform.ChicagoStyle)
+  <span style="color:#ff79c6">default</span>:
+    <span style="color:#ff79c6">return</span> transform.<span style="color:#50fa7b">NewTitleConverter</span>(transform.APStyle)
+  }
+}</code></pre></div>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css"><span style="color:#6272a4">/*Emoji CSS*/</span>
 .<span style="color:#50fa7b">em</span> {
   <span style="color:#ff79c6">font-size</span>: <span style="color:#bd93f9">14</span><span style="color:#8be9fd">px</span>;
