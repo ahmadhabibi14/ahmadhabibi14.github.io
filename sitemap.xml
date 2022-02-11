@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ahmadhabibi14.github.io/blog/</loc>
+    <lastmod>2022-02-11T11:51:10+08:00</lastmod>
+  </url><url>
+    <loc>https://ahmadhabibi14.github.io/</loc>
+    <lastmod>2022-02-11T11:51:10+08:00</lastmod>
+  </url><url>
+    <loc>https://ahmadhabibi14.github.io/blog/konfigurasi-custom-domain-github-page-dengan-cloudflare/</loc>
+    <lastmod>2022-02-11T11:51:10+08:00</lastmod>
+  </url><url>
     <loc>https://ahmadhabibi14.github.io/contact/</loc>
     <lastmod>2022-02-04T21:52:59+08:00</lastmod>
   </url><url>
     <loc>https://ahmadhabibi14.github.io/about/</loc>
-    <lastmod>2022-02-03T18:00:21+08:00</lastmod>
-  </url><url>
-    <loc>https://ahmadhabibi14.github.io/blog/</loc>
-    <lastmod>2022-02-03T18:00:21+08:00</lastmod>
-  </url><url>
-    <loc>https://ahmadhabibi14.github.io/</loc>
     <lastmod>2022-02-03T18:00:21+08:00</lastmod>
   </url><url>
     <loc>https://ahmadhabibi14.github.io/blog/lorem-ipsum/</loc>

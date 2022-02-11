@@ -6,7 +6,19 @@
     <description>Recent content on HBBIIIII - Ahmad Rizky Nusantara Habibi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Feb 2022 18:00:21 +0800</lastBuildDate><atom:link href="https://ahmadhabibi14.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Feb 2022 11:51:10 +0800</lastBuildDate><atom:link href="https://ahmadhabibi14.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Konfigurasi Custom Domain GitHub Page dengan Cloudflare</title>
+      <link>https://ahmadhabibi14.github.io/blog/konfigurasi-custom-domain-github-page-dengan-cloudflare/</link>
+      <pubDate>Fri, 11 Feb 2022 11:51:10 +0800</pubDate>
+      
+      <guid>https://ahmadhabibi14.github.io/blog/konfigurasi-custom-domain-github-page-dengan-cloudflare/</guid>
+      <description>Halaman Github (Github Pages) merupakan layanan hosting web statis yang diberikan oleh Github. Layanan ini diberikan secara gratis dan kita juga akan mendapatkan subdomain .github.io.
+Lalu bagaimana dengan yang kustom domain atau domain sendiri?
+Untuk mendapatkan SSL, kita dapat menggunakan layanan SSL gratis dari Cloudflare. Sebelum mengkonfigurasi nya, siapkan hal – hal berikut :
+ PC atau Laptop 💻🖥 Sambungan Internet 🌐 Github pages   Domain 🌐 Pastikan anda sudah mempunyai domain, silahkan beli dulu Kopi, dan Snack ☕️🌮🍟 Biar semangat, sediakan kopi dan makanan ringan  Konfigurasi custom domain ke Github page  Tambahkan domain ke github page Masuk ke Setting &amp;gt; Pages, kemudian isi domain anda.</description>
+    </item>
+    
     <item>
       <title>Contact</title>
       <link>https://ahmadhabibi14.github.io/contact/</link>
@@ -60,8 +72,7 @@ faillock --user habibi --reset (habibi is my username, you should use your usern
       <pubDate>Fri, 26 Nov 2021 19:33:37 +0800</pubDate>
       
       <guid>https://ahmadhabibi14.github.io/blog/why-i-started-blogging/</guid>
-      <description>Why I Started Blogging? The answer is nothing more than I want to put my thoughts and ideas into writing.
-I waste a lot of time for playing games and surfing on social media, So I figure out what a good hobby for me so that I ain&amp;rsquo;t wasting time anymore. I don&amp;rsquo;t think that I will be a good writer, but at least I do what I&amp;rsquo;m passionate about, and I wish my writing will be have much benefit to every reader.</description>
+      <description>I&amp;rsquo;m so sorry, I haven&amp;rsquo;t wrote yet 😂</description>
     </item>
     
   </channel>
