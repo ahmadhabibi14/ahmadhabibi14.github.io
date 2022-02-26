@@ -1,3 +1,67 @@
+/*
+| ===== Dark Mode ====== |
+
+< == Color Scheme == >
+Purple : #BB86FC
+Blue 01 : #6200EE
+Blue 02 : #3700B3
+BlueGreen 01 : #03DAC6
+BlueGreen 02 : #018786
+Pink : #CF6679
+Red : #B00020
+Dark : #121212
+
+< == Dracula == >
+Background = #282a36
+Current Line = #44475a
+Selection = #44475a
+Foreground = #f8f8f2
+Comment = #6272a4
+Cyan = #8be9fd
+Green = #50fa7b
+Orange = #ffb86c
+Pink = #ff79c6
+Purple = #bd93f9
+Red = #ff5555
+Yellow = #f1fa8c
+*/
+
+.text-coloring {
+  color: var(--text-dark);
+}
+
+#text-coloring a:link {
+  color: var(--text-dark);
+}
+
+#text-coloring a:visited {
+  color: var(--text-dark);
+}
+
+#text-coloring a:hover {
+  color: var(--text-dark);
+}
+
+#text-coloring a:active {
+  color: var(--text-dark);
+}
+
+:root {
+  --bg-navbar: rgba(245, 245, 245, 0.7);
+  --text-dark: black;
+  --bg-dark: #f8f8f2;
+}
+
+/*Dark Mode*/
+.dark-mode {
+  background-color: #282a36;
+  color: #f8f8f2;
+  --bg-navbar: rgba(53, 60, 81, 0.7);
+  --text-dark: white;
+  --bg-dark: #282a36;
+}
+
+/*Syntax Highlighter*/
 .highlight pre {
   padding: 8px 14px 8px 14px;
   border-radius: 5px;
@@ -21,9 +85,10 @@
 
 /*Navigasi Bar*/
 nav {
-  background: rgba(245, 245, 245, 0.7);
+  background: var(--bg-navbar);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
+  color: var(--text-dark);
 }
 
 .link {
