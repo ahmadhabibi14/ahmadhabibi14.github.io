@@ -27,7 +27,7 @@ Yellow = #f1fa8c
 */
 
 :root {
-  --bg-navbar: rgba(245, 245, 245, 0.8);
+  --bg-navbar: rgba(245, 245, 245, 0.7);
   --text-dark: black;
   --bg-dark: #dedede;
   --bg-2nd: #ffff;
@@ -39,7 +39,7 @@ Yellow = #f1fa8c
 .dark-mode {
   background-color: var(--bg-dark);
   color: #f8f8f2;
-  --bg-navbar: rgba(53, 60, 81, 0.8);
+  --bg-navbar: rgba(53, 60, 81, 0.7);
   --text-dark: white;
   --bg-dark: #1f1f24;
   --bg-2nd: #222831;
@@ -70,6 +70,15 @@ Yellow = #f1fa8c
 /*Yang butuh background lebih kental, hweheh*/
 .second-bg {
   background-color: var(--bg-2nd);
+}
+
+/*Logo Tech*/
+#tech-logo {
+  transition: all 0.2s linear;
+}
+
+#tech-logo:hover {
+  transform: scale(1.3);
 }
 
 /*Tombol Dark Mode*/
