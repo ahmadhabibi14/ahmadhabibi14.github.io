@@ -26,6 +26,14 @@ Red = #ff5555
 Yellow = #f1fa8c
 */
 
+:root {
+  --bg-navbar: rgba(245, 245, 245, 0.7);
+  --text-dark: black;
+  --bg-dark: #dedede;
+  --bg-2nd: #ffff;
+  --text-2nd: #777;
+}
+
 .text-coloring {
   color: var(--text-dark);
 }
@@ -46,19 +54,25 @@ Yellow = #f1fa8c
   color: var(--text-dark);
 }
 
-:root {
-  --bg-navbar: rgba(245, 245, 245, 0.7);
-  --text-dark: black;
-  --bg-dark: #f8f8f2;
+/*Yang butuh background lebih kental, hweheh*/
+.second-bg {
+  background-color: var(--bg-2nd);
 }
 
 /*Dark Mode*/
 .dark-mode {
-  background-color: #282a36;
+  background-color: var(--bg-dark);
   color: #f8f8f2;
   --bg-navbar: rgba(53, 60, 81, 0.7);
   --text-dark: white;
-  --bg-dark: #282a36;
+  --bg-dark: #1f1f24;
+  --bg-2nd: #222831;
+  --text-2nd: #b0b0b0;
+}
+
+/*Text gelap*/
+.text-second {
+  color: var(--text-2nd);
 }
 
 /*Syntax Highlighter*/

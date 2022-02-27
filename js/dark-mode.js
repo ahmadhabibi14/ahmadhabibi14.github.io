@@ -1,11 +1,17 @@
 function darkMode(){
     var SetTheme = document.body;
+    // Ambil dark mode
     SetTheme.classList.toggle("dark-mode")
     var theme;
+    // Conditional Dark/Light mode
     if(SetTheme.classList.contains("dark-mode")){
+        // Ganti Icon ke Matahari
+        document.getElementById("toggle").src = "/sun.svg";
         console.log("Dark mode");
         theme = "DARK";
     }else{
+        // Icon kembali ke default
+        document.getElementById("toggle").src = "/moon.svg";
         console.log("Light mode");
         theme = "LIGHT";
     }
