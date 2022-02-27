@@ -74,16 +74,11 @@ Yellow = #f1fa8c
 
 /*Tombol Dark Mode*/
 #toggle {
-  margin: auto;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 50%;
+  transition: all 0.2s linear;
 }
 
 #toggle:hover {
-  background-color: var(--bg-3rd);
+  transform: scale(1.2);
 }
 
 /*Text gelap*/
@@ -95,11 +90,6 @@ Yellow = #f1fa8c
 .highlight pre {
   padding: 8px 14px 8px 14px;
   border-radius: 5px;
-}
-
-/*Emoji CSS*/
-.em {
-  font-size: 14px;
 }
 
 /*Gambar nya biar tumpul*/
@@ -165,45 +155,55 @@ section {
 
 /* Facebook */
 .fa-facebook {
+  transition: all 0.2s linear;
   margin-right: 4px;
   margin-left: 4px;
 }
 .fa-facebook:hover {
+  transform: scale(1.2);
   color: #0d6efd;
 }
 
 /*WhatsApp*/
 .fa-whatsapp {
+  transition: all 0.2s linear;
   margin-right: 4px;
   margin-left: 4px;
 }
 .fa-whatsapp:hover {
+  transform: scale(1.2);
   color: green;
 }
 
 /*Instagram*/
 .fa-instagram {
+  transition: all 0.2s linear;
   margin-right: 4px;
   margin-left: 4px;
 }
 .fa-instagram:hover {
+  transform: scale(1.2);
   color: #C13584;
 }
 
 /*Telegram*/
 .fa-telegram {
+  transition: all 0.2s linear;
   margin-right: 4px;
   margin-left: 4px;
 }
 .fa-telegram:hover {
+  transform: scale(1.2);
   color: #0088CC;
 }
 
 /*Github*/
 .fa-github {
+  transition: all 0.2s linear;
   margin-right: 4px;
   margin-left: 4px;
 }
 .fa-github:hover {
+  transform: scale(1.2);
   color: #8A8A8A;
 }
