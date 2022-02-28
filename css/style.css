@@ -74,13 +74,35 @@ Yellow = #f1fa8c
   background-color: var(--bg-2nd);
 }
 
+/*Blockquote untuk Quote*/
+blockquote {
+  font-size: 18px;
+  margin: 1.5em 0;
+  margin-top: 1.5em;
+  margin-right: 0px;
+  margin-bottom: 1.5em;
+  margin-left: 0px;
+  padding: 0.5em;
+  padding-top: 0.7em;
+  padding-right: 0.8em;
+  padding-bottom: 0.1em;
+  padding-left: 0.8em;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  width: 100%;
+  color: var(--text-dark);
+  border-left: 6px solid #0d6efd;
+  border-radius: 4px;
+  background-color: var(--bg-3rd);
+}
+
 /*Logo Tech*/
 #tech-logo {
   transition: all 0.2s linear;
 }
 
 #tech-logo:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 
 /*Tombol Dark Mode*/
@@ -110,6 +132,10 @@ Yellow = #f1fa8c
 
 /*Ganti font di judul nya*/
 .judul {
+  font-family: "Open Sans";
+}
+
+.courier {
   font-family: courier;
 }
 
@@ -124,20 +150,22 @@ nav {
 
 .link {
   position: relative;
-  padding-bottom: 3px;
+  padding-bottom: 4px;
   cursor: pointer;
 }
 
 .link::after {
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 50%;
   content: "";
   width: 0%;
   height: 5px;
-  border-radius: 3px;
+  border-radius: 2px;
   background-color: #0d6efd;
-  transition: width 0.3s ease-out;
+  transition: width 0.2s ease-out;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .link:hover.link::after {
@@ -145,8 +173,8 @@ nav {
 }
 
 .navbar-nav > li{
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:7px;
+  margin-right:7px;
 }
 /*Akhir Navigasi Bar*/
 
@@ -217,4 +245,10 @@ section {
 .fa-github:hover {
   transform: scale(1.2);
   color: #8A8A8A;
+}
+
+/*Project Card*/
+.box-project {
+  background-color: var(--bg-3rd);
+  border-radius: 5px;
 }
