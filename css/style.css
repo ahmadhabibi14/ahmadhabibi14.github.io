@@ -33,6 +33,7 @@ Yellow = #f1fa8c
   --bg-2nd: #ffff;
   --bg-3rd: #ebebeb;
   --text-2nd: #777;
+  --dark: #0000;
 }
 
 /*Dark Mode*/
@@ -45,6 +46,7 @@ Yellow = #f1fa8c
   --bg-2nd: #222831;
   --bg-3rd: #3f4761;
   --text-2nd: #b0b0b0;
+  --dark: #FFFF;
 }
 
 .text-coloring {
