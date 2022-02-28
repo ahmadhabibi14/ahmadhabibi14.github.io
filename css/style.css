@@ -10,6 +10,9 @@ BlueGreen 02 : #018786
 Pink : #CF6679
 Red : #B00020
 Dark : #121212
+       #3f4761
+       #222831
+       #283149
 
 < == Dracula == >
 Background = #282a36
@@ -30,7 +33,7 @@ Yellow = #f1fa8c
   --bg-navbar: rgba(245, 245, 245, 0.7);
   --text-dark: black;
   --bg-dark: #dedede;
-  --bg-2nd: #ffff;
+  --bg-2nd: #f8f8f2;
   --bg-3rd: #ebebeb;
   --text-2nd: #777;
   --dark: #0000;
@@ -43,8 +46,8 @@ Yellow = #f1fa8c
   --bg-navbar: rgba(53, 60, 81, 0.7);
   --text-dark: white;
   --bg-dark: #1f1f24;
-  --bg-2nd: #222831;
-  --bg-3rd: #3f4761;
+  --bg-2nd: #232931;
+  --bg-3rd: #232931;
   --text-2nd: #b0b0b0;
   --dark: #FFFF;
 }
@@ -188,7 +191,7 @@ tr td a .judul-blog:hover {
 }
 
 section {
-  padding-top: 7rem;
+  padding-top: 6rem;
   padding-bottom: 3rem;
 }
 
@@ -237,18 +240,43 @@ section {
 }
 
 /*Github*/
-.fa-github {
+.fa-github-alt {
   transition: all 0.2s linear;
   margin-right: 4px;
   margin-left: 4px;
 }
-.fa-github:hover {
+.fa-github-alt:hover {
   transform: scale(1.2);
   color: #8A8A8A;
 }
 
 /*Project Card*/
-.box-project {
+div .box-project {
   background-color: var(--bg-3rd);
   border-radius: 5px;
+  border: 2px solid #0d6efd;
+}
+
+/*Github*/
+.fa-github {
+  color: #0d6efd;
+  transition: all 0.2s linear;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.fa-github:hover {
+  transform: scale(1.3);
+  color: var(--text-dark);
+}
+
+/* Share */
+.fa-arrow-up-right-from-square {
+  color: #0d6efd;
+  transition: all 0.2s linear;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.fa-arrow-up-right-from-square:hover {
+  transform: scale(1.2);
+  color: var(--text-dark);
 }
