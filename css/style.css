@@ -33,7 +33,7 @@ Yellow = #f1fa8c
   --bg-navbar: rgba(245, 245, 245, 0.7);
   --text-dark: black;
   --bg-dark: #dedede;
-  --bg-2nd: #f8f8f2;
+  --bg-2nd: #ffff;
   --bg-3rd: #ebebeb;
   --text-2nd: #777;
   --dark: #0000;
@@ -103,7 +103,6 @@ blockquote {
 #tech-logo {
   transition: all 0.2s linear;
 }
-
 #tech-logo:hover {
   transform: scale(1.2);
 }
@@ -112,7 +111,6 @@ blockquote {
 #toggle {
   transition: all 0.2s linear;
 }
-
 #toggle:hover {
   transform: scale(1.2);
 }
@@ -137,7 +135,6 @@ blockquote {
 .judul {
   font-family: "Open Sans";
 }
-
 .courier {
   font-family: courier;
 }
@@ -195,88 +192,45 @@ section {
   padding-bottom: 3rem;
 }
 
-/* Facebook */
-.fa-facebook {
-  transition: all 0.2s linear;
-  margin-right: 4px;
-  margin-left: 4px;
-}
-.fa-facebook:hover {
-  transform: scale(1.2);
-  color: #0d6efd;
-}
-
-/*WhatsApp*/
-.fa-whatsapp {
-  transition: all 0.2s linear;
-  margin-right: 4px;
-  margin-left: 4px;
-}
-.fa-whatsapp:hover {
-  transform: scale(1.2);
-  color: green;
-}
-
-/*Instagram*/
-.fa-instagram {
-  transition: all 0.2s linear;
-  margin-right: 4px;
-  margin-left: 4px;
-}
-.fa-instagram:hover {
-  transform: scale(1.2);
-  color: #C13584;
-}
-
-/*Telegram*/
-.fa-telegram {
-  transition: all 0.2s linear;
-  margin-right: 4px;
-  margin-left: 4px;
-}
-.fa-telegram:hover {
-  transform: scale(1.2);
-  color: #0088CC;
-}
-
-/*Github*/
-.fa-github-alt {
-  transition: all 0.2s linear;
-  margin-right: 4px;
-  margin-left: 4px;
-}
-.fa-github-alt:hover {
-  transform: scale(1.2);
-  color: #8A8A8A;
-}
-
 /*Project Card*/
-div .box-project {
+div .project-card {
+  width: 100%;
+  height: 100%;
+  padding: 1.3em 1.5em 0.5em 1.5em;
   background-color: var(--bg-3rd);
   border-radius: 5px;
   border: 2px solid #0d6efd;
 }
-
-/*Github*/
-.fa-github {
+.project-link {
   color: #0d6efd;
   transition: all 0.2s linear;
   margin-right: 4px;
   margin-left: 4px;
 }
-.fa-github:hover {
-  transform: scale(1.3);
-  color: var(--text-dark);
-}
-
-/* Share */
-.fa-arrow-up-right-from-square {
-  color: #0d6efd;
-  transition: all 0.2s linear;
-  margin-right: 4px;
-  margin-left: 4px;
-}
-.fa-arrow-up-right-from-square:hover {
+.project-link:hover {
   transform: scale(1.2);
   color: var(--text-dark);
+}
+
+/* Social Media Icons */
+.social-icons {
+  text-decoration: none;
+  transition: all 0.2s linear;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.social-icons:hover {
+  transform: scale(1.3);
+  color: #0d6efd;
+}
+
+/* Margin Bottom */
+.margin-vertical {
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;
+}
+
+input[type="name"], input[type="email"], input[type="subject"], textarea[name="message"] {
+  background-color : #e6e6e6;
+  border: 2px solid #cfcfcf;
 }

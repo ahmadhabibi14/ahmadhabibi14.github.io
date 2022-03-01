@@ -15,6 +15,7 @@ function darkMode(){
         console.log("Light mode");
         theme = "LIGHT";
     }
+
     // Simpan ke local storage
     localStorage.setItem("PageTheme", JSON.stringify(theme));
     // Pastikan JSON telah di Konversi -----JSON.stringify(theme)
