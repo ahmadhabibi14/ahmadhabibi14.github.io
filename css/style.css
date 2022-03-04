@@ -1,34 +1,3 @@
-/*
-| ===== Dark Mode ====== |
-
-< == Color Scheme == >
-Purple : #BB86FC
-Blue 01 : #6200EE
-Blue 02 : #3700B3
-BlueGreen 01 : #03DAC6
-BlueGreen 02 : #018786
-Pink : #CF6679
-Red : #B00020
-Dark : #121212
-       #3f4761
-       #222831
-       #283149
-
-< == Dracula == >
-Background = #282a36
-Current Line = #44475a
-Selection = #44475a
-Foreground = #f8f8f2
-Comment = #6272a4
-Cyan = #8be9fd
-Green = #50fa7b
-Orange = #ffb86c
-Pink = #ff79c6
-Purple = #bd93f9
-Red = #ff5555
-Yellow = #f1fa8c
-*/
-
 :root {
   --bg-navbar: rgba(245, 245, 245, 0.7);
   --text-dark: black;
@@ -178,8 +147,12 @@ nav {
   margin-right:10px;
 }
 
+/* Judul Blog */
 tr td a .judul-blog:hover {
-  color: #0c49a6;
+  /* color: #0c49a6; */
+  color: var(--text-dark);
+  border-bottom: 1px solid var(--text-dark);
+  padding-bottom: 3px;
 }
 
 section {
