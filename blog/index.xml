@@ -8,12 +8,14 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 28 Feb 2022 17:56:09 +0800</lastBuildDate><atom:link href="https://habibi2004.tech/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mencoba Font Awesome v6.0.0</title>
+      <title>Mencoba Font Awesome versi 6</title>
       <link>https://habibi2004.tech/blog/mencoba-font-awesome-v6.0.0/</link>
       <pubDate>Mon, 28 Feb 2022 17:56:09 +0800</pubDate>
       
       <guid>https://habibi2004.tech/blog/mencoba-font-awesome-v6.0.0/</guid>
-      <description>Font Awesome versi 6.0.0 rilis, aku pake 😀</description>
+      <description>Font Awesome adalah kumpulan font dan ikon yang berbasis pada CSS dan Less. Font awesome bisa juga dikatakan sebagai framework CSS tetapi khusus untuk ikon.
+  Font Awesome   Saat artikel ini ditulis saya baru saja migrasi ke font awesome versi 6, sebagai plugin ikon untuk website ini.
+Dari keterangan di website resminya, Font awesome 6 rilis pada bulan februari 2022 📅 Apa yang baru dari font awesome versi 6 ?</description>
     </item>
     
     <item>
