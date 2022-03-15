@@ -1,11 +1,30 @@
 :root {
   --bg-navbar: rgba(245, 245, 245, 0.7);
-  --text-dark: black;
+  --text-dark: #000;
   --bg-dark: #dedede;
   --bg-2nd: #ffff;
   --bg-3rd: #ebebeb;
   --text-2nd: #777;
   --dark: #0000;
+  --reverse-text-dark: #ffff;
+  --reverse-bg-dark: #1f1f24;
+}
+
+html::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: #dedede;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: #0d6efd;
+}
+
+*::selection {
+  background: var(--reverse-bg-dark);
+  color: var(--reverse-text-dark);
 }
 
 /*Dark Mode*/
@@ -13,12 +32,14 @@
   background-color: var(--bg-dark);
   color: #f8f8f2;
   --bg-navbar: rgba(53, 60, 81, 0.7);
-  --text-dark: white;
+  --text-dark: #ffff;
   --bg-dark: #1f1f24;
   --bg-2nd: #232931;
   --bg-3rd: #232931;
   --text-2nd: #b0b0b0;
   --dark: #FFFF;
+  --reverse-text-dark: #000;
+  --reverse-bg-dark: #dedede;
 }
 
 .text-coloring {
