@@ -20,6 +20,7 @@
       "type": "image/png"
     }
   ],
+  "scope": "/",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
