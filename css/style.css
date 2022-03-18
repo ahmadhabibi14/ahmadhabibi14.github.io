@@ -210,7 +210,12 @@ div .project-card {
 }
 
 /* Social Media Icons */
+.list-social {
+  overflow: hidden;
+  list-style-type: none;
+}
 .social-icons {
+  display: inline-block;
   text-decoration: none;
   transition: all 0.2s linear;
   margin-right: 4px;
