@@ -210,7 +210,7 @@ div .project-card {
 }
 
 /* Social Media Icons */
-.list-social {
+ul .list-social {
   overflow: hidden;
   list-style-type: none;
 }
