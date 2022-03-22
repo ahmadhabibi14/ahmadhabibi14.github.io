@@ -3,12 +3,16 @@ const toCache = [
   '/',
   '/index.html',
   '/css/style.css',
-  '/css/bootstrap.min.css',
-  '/css/font-awesome-6.0.0.css',
+  '/css/bootstrap.css',
+  '/css/all.min.css',
+  '/css/fontawesome.min.css',
   '/css/syntax.css',
-  '/js/font-awesome-6.0.0.js',
   '/js/script.js',
-  '/js/dark-mode.js'
+  '/js/dark-mode.js',
+  '/moon.svg',
+  '/sun.svg',
+  '/h-logo.svg',
+  '/Habibi.png'
 ];
 
 self.addEventListener('install', function(event) {

@@ -1,5 +1,6 @@
 :root {
   --bg-navbar: rgba(245, 245, 245, 0.7);
+  --bg-navbar-no-blur: #F0F0F7;
   --text-dark: #000;
   --bg-dark: #dedede;
   --bg-2nd: #ffff;
@@ -15,7 +16,7 @@ html::-webkit-scrollbar{
 }
 
 html::-webkit-scrollbar-track{
-  background: #dedede;
+  background: #F0F0F7;
 }
 
 html::-webkit-scrollbar-thumb{
@@ -32,6 +33,7 @@ html::-webkit-scrollbar-thumb{
   background-color: var(--bg-dark);
   color: #f8f8f2;
   --bg-navbar: rgba(53, 60, 81, 0.7);
+  --bg-navbar-no-blur: #2F2F38; /* #282830 #26262E #232329 */
   --text-dark: #ffff;
   --bg-dark: #1f1f24;
   --bg-2nd: #232931;
@@ -42,6 +44,111 @@ html::-webkit-scrollbar-thumb{
   --reverse-bg-dark: #dedede;
 }
 
+/* Navbar */
+nav {
+  z-index: 1;
+  position: fixed;
+  height: 58px;
+  width: 100%;
+  background-color: var(--bg-navbar-no-blur);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+nav label {
+  font-style: "Helvetica Neue", sans-serif;
+  float: left;
+  position: fixed;
+  display: inline-block;
+  font-size: 25px;
+  margin: 0 40px;
+  line-height: 58px;
+}
+label #logo {
+  width: 30px !important;
+  height: 30px !important;
+  margin: 10px 0;
+  margin-top: 3px;
+}
+label #menu,
+label #close {
+  line-height: 58px;
+  margin: 0 25px;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  right: 0;
+}
+#check {
+  display: none;
+}
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 0 40px;
+}
+nav ul li {
+  font-size: 17px;
+  display: inline-block;
+  line-height: 58px;
+  list-style: none;
+  margin: 0 8px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-dark);
+  padding: 14px 2px;
+}
+nav ul li a:hover {
+  color: #0d6efd;
+  border-bottom: 4px solid #0d6efd;
+}
+@media (max-width: 782px) {
+  nav label {
+    position: fixed;
+    margin: 0 25px;
+  }
+  label #menu {
+    display: block;
+    line-height: 58px;
+    margin: 0 25px;
+    right: 0;
+  }
+
+  ul {
+    position: fixed;
+    width: 75%;
+    height: 100vh;
+    right: 0 !important;
+    left: -75%;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 30px !important;
+    background-color: var(--bg-navbar-no-blur);
+    text-align: center;
+    transition: 0.5s;
+    display: block;
+    float: none;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 15px 0;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  }
+
+  #check:checked ~ label #menu {
+    display: none;
+  }
+
+  #check:checked ~ label #close {
+    display: block;
+  }
+}
+/* Akhir Navbar */
 .text-coloring {
   color: var(--text-dark);
 }
@@ -64,7 +171,7 @@ html::-webkit-scrollbar-thumb{
 
 /*Yang butuh background lebih kental, hweheh*/
 .second-bg {
-  background-color: var(--bg-2nd);
+  background-color: var(--bg-navbar-no-blur);
 }
 
 /*Blockquote untuk Quote*/
@@ -78,7 +185,8 @@ blockquote {
   color: var(--text-dark);
   border-left: 6px solid #0d6efd;
   border-radius: 4px;
-  background-color: var(--bg-3rd);
+  background-color: var(--bg-navbar-no-blur);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 blockquote > p {
   margin: auto auto;
@@ -124,45 +232,6 @@ blockquote > p {
   font-family: courier;
 }
 
-
-/*Navigasi Bar*/
-nav {
-  background: var(--bg-navbar);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(10px);
-  color: var(--text-dark);
-}
-
-.link {
-  position: relative;
-  padding-bottom: 4px;
-  cursor: pointer;
-}
-
-.link::after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  content: "";
-  width: 0%;
-  height: 5px;
-  border-radius: 2px;
-  background-color: #0d6efd;
-  transition: width 0.2s ease-out;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.link:hover.link::after {
-  width: 100%;
-}
-
-.navbar-nav > li{
-  margin-left:7px;
-  margin-right:7px;
-}
-/*Akhir Navigasi Bar*/
-
 .form-check {
   margin-left:10px;
   margin-right:10px;
@@ -185,6 +254,7 @@ a .link-external:hover {
 }
 
 section {
+  z-index: 1;
   padding-top: 6rem;
   padding-bottom: 3rem;
 }
@@ -194,9 +264,10 @@ div .project-card {
   width: 100%;
   height: 100%;
   padding: 1.3em 1.5em 0.5em 1.5em;
-  background-color: var(--bg-3rd);
+  background-color: var(--bg-navbar-no-blur);
   border-radius: 5px;
   border: 2px solid #0d6efd;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 .project-link {
   color: #0d6efd;
@@ -229,6 +300,21 @@ div .project-card {
 }
 
 input[type="name"], input[type="email"], input[type="subject"], textarea[name="message"] {
-  background-color : #e6e6e6;
-  border: 2px solid #cfcfcf;
+  background-color : var(--bg-navbar-no-blur) !important; /* #e6e6e6; */
+  border: 1px solid #0d6efd;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  caret-color: var(--text-dark);
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+  z-index: 0;
+}
+
+hr:not([size]) {
+  height: 1px;
 }
