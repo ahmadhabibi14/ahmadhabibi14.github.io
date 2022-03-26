@@ -55,7 +55,7 @@ nav {
   backdrop-filter: blur(8px);
 }
 nav label {
-  font-style: "Helvetica Neue", sans-serif;
+  font-style: 'Helvetica Neue', sans-serif;
   float: left;
   position: fixed;
   display: inline-block;
@@ -149,6 +149,11 @@ nav ul li a:hover {
   }
 }
 /* Akhir Navbar */
+
+#toggle {
+  cursor: pointer;
+}
+
 .text-coloring {
   color: var(--text-dark);
 }
