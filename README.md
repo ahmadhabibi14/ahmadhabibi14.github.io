@@ -17,5 +17,5 @@
   </a>
 </p>
 <h5 align="center">
-	Copyright © <script>document.write(new Date().getFullYear());</script> | <a href="https://habibi2004.tech/">Ahmad Habibi</a>
+	Copyright © 2022 | <a href="https://habibi2004.tech/">Ahmad Habibi</a>
 </h5>
