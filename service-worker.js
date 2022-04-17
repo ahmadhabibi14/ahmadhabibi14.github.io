@@ -12,7 +12,11 @@ const toCache = [
   '/moon.svg',
   '/sun.svg',
   '/h-logo.svg',
-  '/Habibi.png'
+  '/Habibi.png',
+  '/webfonts/fa-brands-400.woff2',
+  '/webfonts/fa-regular-400.woff2',
+  '/webfonts/fa-solid-900.woff2',
+  '/webfonts/fa-v4compatibility.woff2'
 ];
 
 self.addEventListener('install', function(event) {
