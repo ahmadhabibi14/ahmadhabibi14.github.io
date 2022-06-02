@@ -1,5 +1,5 @@
 <div align="center">
-	<a href="https://habibi2004.tech"><img src="./h-logo.svg" width="150" alt="HBBIIIII" /></a>
+	<a href="https://habibi2004.tech"><img src="./habiLogo.svg" width="150" alt="HBBIIIII" /></a>
 	<h1><a href="https://habibi2004.tech/">Ahmad Habibi</a></h1>
 </div>
 

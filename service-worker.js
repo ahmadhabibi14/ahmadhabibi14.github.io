@@ -1,22 +1,10 @@
-const CACHE_NAME = 'SW-001';
+const CACHE_NAME = 'serviceWorker';
 const toCache = [
   '/',
   '/index.html',
-  '/css/style.css',
-  '/css/bootstrap.css',
-  '/css/all.min.css',
-  '/css/fontawesome.min.css',
   '/css/syntax.css',
+  '/habiLogo.svg',
   '/js/script.js',
-  '/js/dark-mode.js',
-  '/moon.svg',
-  '/sun.svg',
-  '/h-logo.svg',
-  '/Habibi.png',
-  '/webfonts/fa-brands-400.woff2',
-  '/webfonts/fa-regular-400.woff2',
-  '/webfonts/fa-solid-900.woff2',
-  '/webfonts/fa-v4compatibility.woff2'
 ];
 
 self.addEventListener('install', function(event) {
